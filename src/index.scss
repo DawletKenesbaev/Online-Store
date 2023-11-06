@@ -1,0 +1,10 @@
+@import './assets/styles/variables.scss';
+@import './assets/styles/global.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar {
+    display: none;
+}

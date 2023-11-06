@@ -1,0 +1,14 @@
+@import './variables.scss';
+
+.navbar {
+    background-color: $primary-color;
+    padding: 20px 0;
+   
+} 
+.nav__link {
+    color: $secondary-color;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 5px;
+}
