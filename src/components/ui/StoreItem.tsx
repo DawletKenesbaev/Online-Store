@@ -1,5 +1,6 @@
 import React from 'react';
-    // import { useShoppingCart } from './ShoppingCart';
+import { Button, Card } from 'react-bootstrap';
+import { useShoppingCart } from '../../utilities/shoppingCartContext';
 import { formatCurrency } from './formatCurrency';
 
 type StoreItemProps = {
