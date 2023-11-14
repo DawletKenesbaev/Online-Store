@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap"
-import storeitems from '../../data/items.json';
+import storeitems from '../../data/items';
 import { useShoppingCart } from "../../utilities/shoppingCartContext";
 
 import { Card } from 'react-bootstrap';

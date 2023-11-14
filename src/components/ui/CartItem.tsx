@@ -1,5 +1,5 @@
 import { useShoppingCart } from "../../utilities/shoppingCartContext";
-import storeItems from '../../data/items.json';
+import storeItems from '../../data/items';
 import { formatCurrency } from "./formatCurrency";
 import styled from "styled-components";
 

@@ -1,7 +1,7 @@
 import { useShoppingCart } from "../../utilities/shoppingCartContext";
 import { formatCurrency } from "../ui/formatCurrency";
 import CartItem from "./CartItem";
-import storeItems from '../../data/items.json';
+import storeItems from '../../data/items';
 
 type ShoppingCartProps = {
   isOpen: boolean
